@@ -1,8 +1,6 @@
-import "./App.css";
-
 import Directory from "./components/directory/directory.component";
 
-function App() {
+const App = () => {
   const categories = [
     {
       id: 1,
@@ -32,6 +30,6 @@ function App() {
   ];
 
   return <Directory categories={categories} />;
-}
+};
 
 export default App;
